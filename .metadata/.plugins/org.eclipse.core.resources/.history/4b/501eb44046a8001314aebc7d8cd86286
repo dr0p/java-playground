@@ -1,0 +1,7 @@
+import java.util.*;
+public class InputTest {
+	public static int main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+	}
+}

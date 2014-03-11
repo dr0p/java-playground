@@ -1,0 +1,13 @@
+import java.io.Console;
+
+public class Paswords {
+	public static void main()
+	{
+		Console cons = System.console();
+		String username = cons.readline("Nazwa użytkownika: ");
+		char[] passwd = cons.readPassword("Hasło: ");
+		
+		printl
+	}
+
+}

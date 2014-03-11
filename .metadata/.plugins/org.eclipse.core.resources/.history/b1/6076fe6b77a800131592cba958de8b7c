@@ -1,0 +1,11 @@
+import java.sql.Date;
+
+public class Classes
+{
+	public static void main(String[] args)
+	{
+		System.out.println(new Date(0));
+		
+		String s = new Date(0).toString();
+	}
+}

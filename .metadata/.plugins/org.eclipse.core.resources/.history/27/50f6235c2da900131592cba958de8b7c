@@ -1,0 +1,48 @@
+public class ParamTest
+{
+	public static void main(String[] args)
+	{
+		System.out.println("testowanie trippleValue:");
+		double percent = 10;
+		System.out.println("Przed: percent=" + percent);
+		trippleValue(percent);
+	}
+	
+	public static void trippleValue(double x)
+	{
+		x = 3*x;
+		System.out.println("Koniec metody: x=" + x");
+	}
+	
+	public static void trippleSalary(Employee x)
+	{
+		x.raiseSalary(200);
+		System.out.println("Koniec metody: salary= " + x.getSalary());
+	}
+	
+	public static void swap(Employee x, Employee y)
+	{
+		Employee temp = x;
+		x = y;
+		y = temp;
+		System.out.println("Koniec metody: x=" + x.getName());
+		System.out.println("Koniec metody: y=" + y.getName());
+		
+	}
+}
+
+
+class Employee
+{
+	private String name;
+	private double salary;
+	
+	public Employee(String n, double s)
+	{
+		name = n; salary = s;
+	}
+	
+	public String getName() { return name; }
+	public double getSalary() { return salary; }
+	public void raiseSalary(double byPercent) { double raise = salary * byPercent / 100; salary += raise; }
+}

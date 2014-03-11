@@ -1,0 +1,12 @@
+INDEX VERSION 1.126+/run/media/pawel/data/projects/java/.metadata/.plugins/org.eclipse.jdt.core
+1144333686.index
+3269902525.index
+3567684912.index
+2702735630.index
+357054388.index
+2089348824.index
+482775344.index
+2055901506.index
+3007017303.index
+139473798.index
+3036127437.index

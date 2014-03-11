@@ -1,0 +1,17 @@
+package test;
+
+public class Test {
+	public static final double CM_PER_INCH = 2.54;
+	public static void main(String[] args)
+	{
+		System.out.println("aaa!");
+		System.out.println("\uFFFF");	
+		int vacationDays = 10;
+		System.out.println(vacationDays);
+		
+		double paperWidth = 8.5;
+		double paperHeight = 11;
+		System.out.println("Rozmiar papieru w centumetrach: "
+				+ paperWidth * CM_PER_INCH + " na " + paperHeight * CM_PER_INCH);
+	}
+}

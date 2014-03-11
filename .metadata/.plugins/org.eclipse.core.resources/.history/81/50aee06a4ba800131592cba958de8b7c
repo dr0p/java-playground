@@ -1,0 +1,41 @@
+public class Loops {
+	int fib(int n)
+	{
+		if (n <= 1)
+			return n;
+		else
+		{
+			return (fib(n-1) + fib(n-2));
+		}
+		
+	}
+	public static void main(String[] args) // obliczenia z zachowaniem mniejszej precyzji
+	{
+		int yourSales = 30000;
+		int target = 10000;
+		String performance;
+		int bonus;
+		
+		if (yourSales >= 2 * target) {
+			performance = "Excellent";
+			bonus = 1000;
+		}
+		else if (yourSales >= 1.5 * target)
+		{
+			performance = "Fine";
+			bonus = 500;
+		}
+		else if (yourSales >= target)
+		{
+			performance = "Satisfactory";
+			bonus = 100;
+		}
+		else
+		{
+			System.out.println("Jesteś zwolniony!");
+		}
+		
+		fib(10);
+		
+	}
+}

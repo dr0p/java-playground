@@ -1,0 +1,29 @@
+public class Loops {
+	public static strictfp void main(String[] args) // obliczenia z zachowaniem mniejszej precyzji
+	{
+		int yourSales = 3000;
+		int target = 10000;
+		String performance;
+		int bonus;
+		
+		if (yourSales >= 2 * target) {
+			performance = "Excellent";
+			bonus = 1000;
+		}
+		else if (yourSales >= 1.5 * target)
+		{
+			performance = "Fine";
+			bonus = 500;
+		}
+		else if (yourSales >= target)
+		{
+			performance = "Satisfactory";
+			bonus = 100;
+		}
+		else
+		{
+			System.out.println("Jesteś zwolniony!");
+		}
+		
+	}
+}

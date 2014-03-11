@@ -1,0 +1,19 @@
+public class ParamTest
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}
+
+
+class Employee
+{
+	public Employee(String n, double s)
+	{
+		name = n; salary = s;
+	}
+	
+	public String getName() { return name; }
+	public double getSalary() { return salary; }
+}

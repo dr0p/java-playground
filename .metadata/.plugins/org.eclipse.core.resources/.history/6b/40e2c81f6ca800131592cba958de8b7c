@@ -1,0 +1,13 @@
+public class PascalNumbers
+{
+	public static int[] test(int[] row)
+	{
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+}
